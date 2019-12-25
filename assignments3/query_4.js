@@ -1,0 +1,1 @@
+printjson(db.people.find({ $expr: { $and: [ { $gte: [ { $toDouble: "$weight" }, 68 ] } , { $lte: [ { $toDouble: "$weight" }, 71.5] }]}}).toArray())

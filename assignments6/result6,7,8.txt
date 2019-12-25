@@ -1,0 +1,5 @@
+for connection with at most N=3 different airports between LAX and DAY( LAX->1->DAY, LAX->1->2->DAY, LAX->1->2->3->DAY )
+in my solution I guess there is not such connection exist
+connections might exist when N>3, but my computer is too slow for N>3, so I can not search
+
+if it is LAX to other airport e.g. SFO, then there are many connections with just  N=3
